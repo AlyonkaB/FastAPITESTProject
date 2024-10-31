@@ -1,0 +1,58 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+*.env
+*.env.*
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints (if you use them)
+.ipynb_checkpoints
+
+# Database files (if using SQLite)
+*.sqlite3
+*.db
+
+# IDE-specific ignores (optional)
+.vscode/
+.idea/
+
+# Migrations (if using Alembic or other migration tools)
+migrations/
+alembic/versions/
+
+# Static files (if generated dynamically)
+staticfiles/
+media/
+
+# Compiled files and C extensions
+*.so
+*.dll
+*.dylib
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+.cache
+
+# MyPy and Pytest caches
+.mypy_cache/
+.pytest_cache/
+
+# FastAPI-specific ignores
+*.pid
+instance/
